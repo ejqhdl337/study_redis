@@ -1,0 +1,21 @@
+{
+  "name": "study_redis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch controllers --watch model --watch routes app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1",
+    "react": "^18.2.0",
+    "redis": "^4.2.0"
+  }
+}
