@@ -9,6 +9,7 @@ async function setWithDefaultExpires(key, value) {
 }
 
 async function get(key){
+    redisCon.expire(key, EXPRIRED_TIME);
     return await redisCon.get(key);
 }
 
