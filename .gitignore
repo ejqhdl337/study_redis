@@ -1,4 +1,4 @@
-node_modules/*
-client/*
-config/*
+node_modules/
+client/
+config/
 .gitignore
